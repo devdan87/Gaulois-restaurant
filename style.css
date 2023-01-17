@@ -1,0 +1,862 @@
+body{
+    margin:0;
+    background-image: url(img/body.png);
+   width: 100%;
+   background-attachment: fixed; 
+    
+}
+
+
+
+section{
+  
+    margin-bottom: 50px;
+}
+
+@font-face {
+    font-family: "Waffle Story";
+    src: url(font/Waffle\ Story.otf);
+}
+
+@font-face {
+    font-family: "Waffle Story";
+    src: url(font/Waffle\ Story.ttf);
+}
+
+
+#logo{
+    width: 200px;
+    height: 150px;
+}
+
+#burger{
+    height: 100px;
+    width: 150px;
+    position: relative;
+    right: 20px;
+    top: 10px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-left: 200px;
+    margin-top: 30px;
+    list-style: none;
+    font-family: "Waffle Story";
+    font-size: 2em;
+   
+}
+
+a{
+text-decoration: none;
+color: #f12618;
+}
+
+a:hover{
+    color: white;
+}
+
+header{
+    display: flex;
+    background-color: #f7bc08;
+    width: 100%;
+  
+    
+}
+
+#gif{
+    width: 100%;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Waffle Story";
+    font-size: 4em;
+    text-decoration: underline;
+    
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family: "Waffle Story";
+    font-size: 2em;
+}
+
+#welcome{
+    width: 100%;
+    display: flex;
+}
+
+#enter{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 70px;
+    border: 5px solid #f12618;
+    border-radius: 15px;
+}
+
+#sal1,#sal2,#kitch{
+    display: flex;
+}
+
+#end{
+    display: flex;
+    justify-content: space-between;
+}
+
+#salle1{
+    height: 500px;
+    border: 5px solid #f12618;
+    border-radius: 15px;
+}
+
+#salle2{
+    width: 380px;
+    border: 5px solid #f12618;
+    border-radius: 15px;
+}
+
+#cuisine{
+    width: 380px;
+    border: 5px solid #f12618;
+    border-radius: 15px;
+}
+
+#kebab{
+    width: 400px; 
+    height: 450px;
+    border: 5px solid #f12618;
+    border-radius: 15px;
+}
+
+#p2{
+    position: relative;
+    top: 150px;
+}
+
+#p3{
+    position: relative;
+    top: 70px;
+}
+
+#p4{
+    position: relative;
+    top: 150px;
+}
+
+#p5{
+    position: relative;
+    top: 150px;
+    left: 80px;
+}
+
+#wrap{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+figure{
+    border: 5px solid white;
+    
+}
+
+#marker{
+    width: 100px;
+    position: relative;
+    top: 50px;
+}
+
+#phone{
+    width: 100px;
+    position: relative;
+    top: 30px;
+}
+
+#mail{
+    width: 100px;
+    position: relative;
+    top: 50px;
+    right: 35px;
+}
+
+#contact{
+    overflow: hidden;
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
+    border: 3px solid #f12618;
+    border-radius: 15px;
+    position: relative;
+    top: 5px;
+}
+
+#foot{
+    height: 100px;
+}
+
+.footImg>img{
+width: 100px;
+height: 100px;
+}
+
+.footImg{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #f7bc08;
+}
+
+
+@media screen and (width: 320px) {
+   
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: auto;
+    } 
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    li{
+        font-size: 14px;
+        margin: 0;
+    }
+
+    #menu{
+        width: 100%;
+        position: relative;
+        top: 30px;
+        right: 10px;
+    }
+
+    #gif{
+        width: 320px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+
+   
+
+    #welcome,#sal1,#sal2,#kitch,#end{
+        flex-direction: column;
+        
+    }
+
+    #salle1,#salle2,#cuisine, #enter,#kebab{
+        width: 310px;
+        margin-bottom: 50px;
+    }
+
+    #p2,#p3,#p4,#p5{
+        position: inherit;
+    }
+
+    figure>img{
+        width: 310px;
+    }
+
+   #marker,#phone,#mail{
+    height: 50px;
+   }
+
+   #contact>p{
+    font-size: 20px;
+   }
+
+   .footImg>img{
+    width: 80px;
+    height: 80px;
+    }
+}
+
+
+
+@media screen and (width: 375px) {
+   
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: auto;
+    } 
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    li{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    #menu{
+        width: 100%;
+        position: relative;
+        top: 20px;
+        right: 10px;
+    }
+    
+    #gif{
+        width: 375px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+
+   
+
+    #welcome,#sal1,#sal2,#kitch,#end{
+        flex-direction: column;
+        
+    }
+
+    #salle1,#salle2,#cuisine, #enter,#kebab{
+        width: 365px;
+        margin-bottom: 50px;
+    }
+
+    #p2,#p3,#p4,#p5{
+        position: inherit;
+    }
+
+    figure>img{
+        width: 310px;
+    }
+
+   #marker,#phone,#mail{
+    height: 50px;
+   }
+
+   #contact>p{
+    font-size: 20px;
+   }
+
+   .footImg>img{
+    width: 80px;
+    height: 80px;
+    }
+}
+
+
+
+
+@media screen and (width: 425px) {
+   
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: auto;
+    } 
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    li{
+        font-size: 25px;
+        margin: 0;
+    }
+
+    #menu{
+        width: 100%;
+        position: relative;
+        
+        right: 5px;
+    }
+
+    #gif{
+        width: 425px;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 12px;
+    }
+
+   
+
+    #welcome,#sal1,#sal2,#kitch,#end{
+        flex-direction: column;
+        
+    }
+
+    #salle1,#salle2,#cuisine, #enter,#kebab{
+        width: 410px;
+        margin-bottom: 50px;
+    }
+
+    #p2,#p3,#p4,#p5{
+        position: inherit;
+    }
+
+    figure>img{
+        width: 310px;
+    }
+
+   #marker,#phone,#mail{
+    height: 50px;
+   }
+
+   #contact>p{
+    font-size: 20px;
+   }
+
+   .footImg>img{
+    width: 80px;
+    height: 80px;
+    }
+}
+
+
+
+
+@media screen and (width: 768px) {
+   
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: auto;
+    } 
+
+    ul{
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    li{
+        font-size: 30px;
+       margin: 0;
+    }
+
+    #menu{
+        width: 100%; 
+        position: relative;
+        top: 30px;
+        right: 10px;
+    }
+
+    #gif{
+        width: 768px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    
+    p{
+        font-size: 22px;
+    }
+
+    #p5{
+        position: inherit;
+       margin-top: 150px;
+        
+    }
+
+    #salle1,#salle2,#cuisine, #enter,#kebab{
+        width: 410px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+@media screen and (width: 1024px) {
+   
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: auto;
+    } 
+
+    ul{
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    li{
+        font-size: 30px;
+       margin: 0;
+    }
+
+    #menu{
+        width: 100%; 
+        position: relative;
+        top: 30px;
+        right: 10px;
+    }
+
+    #gif{
+        width: 1024px;
+    }
+
+   
+    
+}
+
+
+
+@media screen and (width: 1440px) {
+   
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: auto;
+    } 
+
+    ul{
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    li{
+        font-size: 30px;
+       margin: 0;
+    }
+
+    #menu{
+        width: 100%; 
+        position: relative;
+        top: 30px;
+        right: 10px;
+    }
+
+    #gif{
+        width: 1440px;
+    }
+    
+   
+}
+
+@media all and (min-width: 321px) and (max-width: 374px){
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: 380px;
+    } 
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    li{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    #menu{
+        width: 100%;
+        position: relative;
+        top: 20px;
+        right: 10px;
+    }
+    
+    #gif{
+        width: 375px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+
+   
+
+    #welcome,#sal1,#sal2,#kitch,#end{
+        flex-direction: column;
+        
+    }
+
+    #salle1,#salle2,#cuisine, #enter,#kebab{
+        width: 365px;
+        margin-bottom: 50px;
+    }
+
+    #p2,#p3,#p4,#p5{
+        position: inherit;
+    }
+
+    figure>img{
+        width: 310px;
+    }
+
+   #marker,#phone,#mail{
+    height: 50px;
+   }
+
+   #contact>p{
+    font-size: 20px;
+   }
+
+   .footImg>img{
+    width: 80px;
+    height: 80px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 424px){
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: auto;
+    } 
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    li{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    #menu{
+        width: 100%;
+        position: relative;
+        top: 20px;
+        right: 10px;
+    }
+    
+    #gif{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+
+   
+
+    #welcome,#sal1,#sal2,#kitch,#end{
+        flex-direction: column;
+        
+    }
+
+    #salle1,#salle2,#cuisine, #enter,#kebab{
+        width: 97%;
+        margin-bottom: 50px;
+    }
+
+    #p2,#p3,#p4,#p5{
+        position: inherit;
+    }
+
+    figure>img{
+        width: 310px;
+    }
+
+   #marker,#phone,#mail{
+    height: 50px;
+   }
+
+   #contact>p{
+    font-size: 20px;
+   }
+
+   .footImg>img{
+    width: 80px;
+    height: 80px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px){
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: auto;
+    } 
+
+    #burger{
+        display: none;
+    }
+
+   
+    
+    li{
+        font-size: 10px;
+        margin: 15px;
+    }
+
+    #menu{
+        width: 100%;
+        position: relative;
+        top: 20px;
+        right: 10px;
+    }
+    
+    #gif{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+
+   
+
+    #welcome,#sal1,#sal2,#kitch,#end{
+        flex-direction: column;
+        
+    }
+
+    #salle1,#salle2,#cuisine, #enter,#kebab{
+        width: 97%;
+        margin-bottom: 50px;
+    }
+
+    #p2,#p3,#p4,#p5{
+        position: inherit;
+    }
+
+    figure>img{
+        width: 310px;
+    }
+
+   #marker,#phone,#mail{
+    height: 50px;
+   }
+
+   #contact>p{
+    font-size: 20px;
+   }
+
+   .footImg>img{
+    width: 80px;
+    height: 80px;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1022px){
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: auto;
+    } 
+
+    ul{
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    li{
+        font-size: 30px;
+       margin: 0;
+    }
+
+    #menu{
+        width: 100%; 
+        position: relative;
+        top: 30px;
+        right: 10px;
+    }
+
+    #gif{
+        width: 100%;
+    }
+  
+}
+
+@media all and (min-width: 1026px) and (max-width: 1150px){
+    header{
+        display: flex;
+        background-color: #f7bc08;
+        width: auto;
+    } 
+
+    ul{
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    li{
+        font-size: 30px;
+       margin: 0;
+    }
+
+    #menu{
+        width: 100%; 
+        position: relative;
+        top: 30px;
+        right: 10px;
+    }
+    #gif{
+        width: 100%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 425px){
+    ul{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #burger{
+        display: none;
+    }
+}
